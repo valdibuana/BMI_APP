@@ -1,4 +1,8 @@
+import type { Metadata } from 'next'
 
+export const metadata: Metadata = {
+  title: 'Not Found - BMI App',
+}
 
 export default function NotFound() {
   return (
