@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Calculator } from "lucide-react"
 import { motion } from "framer-motion"
 
+
 export default function HomePage() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-100 to-white px-6 py-16">
