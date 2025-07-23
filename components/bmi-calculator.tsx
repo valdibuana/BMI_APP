@@ -8,6 +8,7 @@ import { Label } from "@/components/ui/label"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group"
 import { saveBMIRecord } from "@/app/actions/bmi"
+export const dynamic = 'force-dynamic';
 
 export function BMICalculator() {
   const [result, setResult] = useState<{ bmi: number; category: string } | null>(null)

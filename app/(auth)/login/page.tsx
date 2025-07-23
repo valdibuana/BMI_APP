@@ -4,6 +4,7 @@ import Link from "next/link"
 import { AuthForm } from "@/components/auth-form"
 import { motion } from "framer-motion"
 
+
 export default function LoginPage() {
   return (
     <main className="min-h-screen flex items-center justify-center bg-gradient-to-br from-sky-100 to-white px-4">

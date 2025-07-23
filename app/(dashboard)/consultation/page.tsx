@@ -4,6 +4,7 @@ import { getConsultations } from "@/app/actions/consultation"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { ConsultationForm } from "@/components/consultation-form"
+export const dynamic = 'force-dynamic';
 
 export default async function ConsultationPage() {
   const session = await getSession()

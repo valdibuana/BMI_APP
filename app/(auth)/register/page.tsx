@@ -2,7 +2,7 @@ import Link from "next/link"
 import { redirect } from "next/navigation"
 import { AuthForm } from "@/components/auth-form"
 import { getSession } from "@/lib/session"
-
+export const dynamic = 'force-dynamic';
 export default async function RegisterPage() {
   const session = await getSession()
 

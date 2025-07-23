@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Alert, AlertDescription } from "@/components/ui/alert"
 import { signup, signin, type FormState } from "@/app/actions/auth"
+export const dynamic = 'force-dynamic';
 
 interface AuthFormProps {
   mode: "signin" | "signup"

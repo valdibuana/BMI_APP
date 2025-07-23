@@ -3,6 +3,7 @@ import { getSession } from "@/lib/session"
 import { getUserById } from "@/lib/auth"
 import { getBMIHistory } from "@/app/actions/bmi"
 import { BMICalculator } from "@/components/bmi-calculator"
+export const dynamic = 'force-dynamic';
 import {
   Card,
   CardContent,

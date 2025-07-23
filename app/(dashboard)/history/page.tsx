@@ -1,6 +1,8 @@
 import { redirect } from "next/navigation"
 import { getSession } from "@/lib/session"
 import { getBMIHistory } from "@/app/actions/bmi"
+export const dynamic = 'force-dynamic';
+
 import {
   Card,
   CardContent,
@@ -16,6 +18,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table"
+
 
 export default async function HistoryPage() {
   const session = await getSession()
